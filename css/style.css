@@ -28,7 +28,11 @@ a{
         display: none;
     }
     .card{
-        width: 90%;
+        width: 100%;
+    }
+    .text{
+        top: 20vw;
+        left: 50vw;
     }
 }
 
@@ -56,6 +60,10 @@ a{
     }
     .card{
         width: 80vh;
+    }
+    .text{
+        top: 8vw;
+        left: 14vw;
     }
 }
 
@@ -156,8 +164,7 @@ h2{
     overflow: hidden;
     padding: 0;
     width: 90%;
-    top: 13vh;
-    left: 30vh;
+    max-height: 90%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
